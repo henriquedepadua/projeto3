@@ -1,0 +1,106 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: #ce1477;
+    padding: 50px;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+header > img {
+    border-radius: 700%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #CE1477;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 50px;
+    display: inline;
+    
+}
+
+nav > ul > li {
+    display: inline;
+    padding: 1.8%;
+
+}
+
+li > a {
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    padding: 5%;
+    text-align: center;
+    display: inline-block;
+}
+
+.item-portfolio {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: smaller;
+}
+
+.item-portfolio:hover {
+    box-shadow: 1px 1px 2px #ce1477;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.item-portfolio > img {
+    width: 25%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.item-portfolio > p {
+    padding: 10px;
+    color: #ce1477;
+}
+
+footer {
+    background-color:#CE1477;
+    padding: 18px;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+main {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    nav ul {
+        padding: 50px 0px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    nav ul li a {
+        margin: 15px;
+        display: inline;
+        font-size: smaller;
+        
+    }
+}
